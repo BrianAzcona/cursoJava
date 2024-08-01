@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class entradaPorTeclado {
 
     public static void main(String[] args) {
-        Scanner consola = new Scanner(System.in);
+       /*  Scanner consola = new Scanner(System.in);
 
         System.out.println("Ingresar un número: ");
         float numero = consola.nextFloat();  // Leer un número flotante desde el teclado
@@ -20,6 +20,11 @@ public class entradaPorTeclado {
         System.out.println(resultado);
         float divisionFloat = (float) 3/2;              
         System.out.println(divisionFloat);
-        consola.close();  // Cerrar el scanner  
+        consola.close();  // Cerrar el scanner  */
+        for (int i = 0; i < 3; i++) {
+            System.out.println(i);
+            System.out.println(i);
+            
+        }
     }
 }
