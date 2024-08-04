@@ -4,6 +4,24 @@ public class Aritmetica {
     //Atributos de la clase
     int a;
     int b;
+
+    //Constructor vacio
+    /*un contructor permite crear objetos con diferentes
+     valores desde el momento de la creacion del objeto,
+     pueden estar por defecto o parametrizado.
+     Los constructores tienen el mismo nombre que nuestra clase.
+     Si no se crea un constructor, el compilador creará
+     de forma automatica uno por defecto.*/
+    public Aritmetica(){
+        System.out.println("Ejecutando Constructor");
+    }
+    //Constructor con args
+    public Aritmetica(int a, int b){
+        this.a = a;
+        this.b = b;
+        System.out.println("Constructor con argumentos");
+    }
+
     //Metodo
     public void sumar(){
         int resultado = a + b;
